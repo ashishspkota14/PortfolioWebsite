@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -22,6 +24,7 @@
   --container-width-md: 86%;
   --container-width-sm: 90%;
 }
+
 html {
   scroll-behavior: smooth;
 }
@@ -31,14 +34,14 @@ html {
 }
 
 body {
-  font-family: "Inconsolata", monospace;
+  font-family: "Poppins", sans-serif;
   background: var(--color-bg);
   color: var(--color-white);
   line-height: 1.7;
   background-image: url(../src/assets/bg-texture.png);
 }
 
-/*  ======= GENERAL STYLES =========== */
+/* ============== GENEARL STYLES ============== */
 .container {
   width: var(--container-width-lg);
   margin: 0 auto;
@@ -83,6 +86,7 @@ a {
 a:hover {
   color: var(--color-white);
 }
+
 .btn {
   width: max-content;
   display: inline-block;
@@ -111,24 +115,24 @@ img {
   object-fit: cover;
 }
 
-/* =======MEDIA QUERIES   ======== -      Medium Devices*/
-
+/* ================ MEDIA QUERIES (MEDIUM DEVICES) ================= */
 @media screen and (max-width: 1024px) {
   .container {
     width: var(--container-width-md);
   }
+
   section {
     margin-top: 6rem;
   }
 }
 
-/* =======MEDIA QUERIES   ======== -      Small Devices*/
-
+/* ================ MEDIA QUERIES (SMALL DEVICES) ================= */
 @media screen and (max-width: 600px) {
   .container {
     width: var(--container-width-sm);
   }
-  section {
+
+  section > h2 {
     margin-bottom: 2rem;
   }
 }

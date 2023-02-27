@@ -1,5 +1,5 @@
 import React from "react";
-import "./About.css";
+import "./about.css";
 import MyImage from "../../assets/me-about.jpg";
 import { FaAward, FaUserSecret } from "react-icons/fa";
 import { AiOutlineFundProjectionScreen } from "react-icons/ai";
@@ -39,7 +39,8 @@ const About = () => {
             and my commitment to critical thinking and attention to detail have
             gotten me to where I am today: a senior software engineer for First
             Technology. I have a passion for processes, and I'm an experienced
-            team leader who typically manages 10 developers at any given time.{" "}
+            team leader who typically manages 5 to 10 developers at any given
+            time.{" "}
           </p>
           <a href="#contact" className="btn btn-primary">
             {" "}
