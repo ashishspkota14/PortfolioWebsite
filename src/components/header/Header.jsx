@@ -1,5 +1,5 @@
 import React from "react";
-import "./header.css";
+import "./Header.css";
 import CTA from "./CTA";
 import ME from "../../assets/me.jpg";
 import HeaderSocials from "./HeaderSocials";

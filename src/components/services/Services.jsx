@@ -1,5 +1,5 @@
 import React from "react";
-import "./services.css";
+import "./Services.css";
 import { AiOutlineCheckCircle } from "react-icons/ai";
 
 const Services = () => {

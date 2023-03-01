@@ -1,5 +1,5 @@
 import React from "react";
-import "./experience.css";
+import "./Experience.css";
 import { BsFillPatchCheckFill } from "react-icons/bs";
 const Experience = () => {
   return (

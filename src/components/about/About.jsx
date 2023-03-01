@@ -1,5 +1,5 @@
 import React from "react";
-import "./about.css";
+import "./About.css";
 import MyImage from "../../assets/me-about.jpg";
 import { FaAward, FaUserSecret } from "react-icons/fa";
 import { AiOutlineFundProjectionScreen } from "react-icons/ai";
