@@ -19,7 +19,7 @@ const About = () => {
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Experience</h5>
-              <small> 3+ Years Coding </small>
+              <small> 7+ Years Coding </small>
             </article>
 
             <article className="about__card">
@@ -35,9 +35,9 @@ const About = () => {
             </article>
           </div>
           <p>
-            I've worked in software development for last 5-year in my career,
+            I've worked in software development for last 8-year in my career,
             and my commitment to critical thinking and attention to detail have
-            gotten me to where I am today: a senior software engineer for First
+            gotten me to where I am today: a Senior software engineer for First
             Technology. I have a passion for processes, and I'm an experienced
             team leader who typically manages 5 to 10 developers at any given
             time.{" "}
